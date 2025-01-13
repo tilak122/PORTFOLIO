@@ -1,0 +1,153 @@
+@media screen and (max-width:1400px) {
+    .nav-center ul {
+
+
+        list-style: none;
+        font-family: var(--font1);
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 175px;
+        position: relative;
+        left: -362px;
+    }
+
+    .nav-right {
+        position: relative;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        right: 329px;
+    }
+
+    .content-right img {
+        height: 29vh;
+        position: relative;
+        top: 406px;
+        right: 90px;
+    }
+
+
+
+    .content-left {
+        background-color: rgb(99, 5, 44);
+        height: 19vh;
+        border: 2px solid black;
+        border-radius: 12px;
+        font-family: var(--font1);
+        margin-top: 27vh;
+        font-size: 1rem;
+        font-weight: bolder;
+        color: rgb(187, 188, 221);
+        position: relative;
+        left: 100px;
+    }
+
+
+    #helo {
+        margin-left: 10px;
+    }
+
+    #text {
+        color: yellow;
+        font-size: 20px;
+        font-family: var(--font3);
+
+    }
+
+    #element {
+        font-size: 20px;
+        color: darkorange;
+    }
+
+    .skills-section {
+        background-color: rgb(66, 8, 27);
+        height: 90vh;
+        overflow: hidden;
+
+
+
+    }
+
+    #done {
+        font-family: var(--font1);
+        font-size: 60px;
+        font-weight: 200;
+        margin-left: 4vw;
+
+
+        color: yellow;
+
+
+
+    }
+
+    .box {
+
+
+        background-color: white;
+        height: 0px;
+        width: 0px;
+
+
+
+        margin: auto;
+        margin-top: 120px;
+
+
+    }
+
+    .secondbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .vertical {
+
+
+        background-color: white;
+        margin: 51px 5px;
+        position: relative;
+        height: 0px;
+        width: 0px;
+
+    }
+
+    .vertical img {
+        height: 26vh;
+        width: 30vw;
+        position: absolute;
+        right: -51px;
+        bottom: 50px;
+
+
+
+    }
+
+
+    .text {
+        font-family: var(--font1);
+        font-size: xx-large;
+        position: absolute;
+        top: 67px;
+        right: -19px;
+        color: purple;
+        display: none;
+    }
+
+    .text2 {
+        font-family: var(--font1);
+        font-size: xx-large;
+        position: absolute;
+        top: 67px;
+        right: -40px;
+        color: rgb(0, 140, 255);
+        display: none;
+    }
+
+    .foot-right h3 {
+        font-size: medium
+    }
+
+}

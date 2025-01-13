@@ -1,0 +1,35 @@
+.about{
+    background-color:rgb(66, 8, 27);
+    height: 100vh;
+}
+h1{
+    color: white;
+    font-family: var(--font1);
+    padding: 25px;
+    font-weight: lighter;
+}
+.ab img{
+    height: 50vh;
+    border: 5px solid black;
+    margin: 50px;
+    margin-top: 25px;
+    margin-left: 550px;
+    border-radius: 100px;
+    opacity: 0.21;
+
+    
+
+}
+@media screen and (max-width:1400px) {
+    .about{
+        height: 320vh;
+    }
+    h1{
+        position: relative;
+        top: 100px;
+    }
+    .ab img{
+        display: none;
+    }
+    
+}

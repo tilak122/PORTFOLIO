@@ -1,0 +1,68 @@
+.contact{
+    height: 100vh;
+    background-color:rgb(66, 8, 27); ;
+}
+.contact h1{
+    margin-left: 600px;
+    font-size: 100px;
+    font-weight: bolder;
+    color: yellow;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail a{
+    margin-top: 50px;
+    color:rgb(141, 141, 84);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.mail a:hover{
+    opacity: 0.2;
+}
+.mail img{
+    height: 5vh;
+    position: relative;
+    top: 9px;
+}
+h2{
+    color: rgb(141, 141, 84);
+    font-size: 2rem;
+    font-weight: bold;
+}
+@media screen and (max-width:1400px) {
+    .contact{
+        height: 120vh;
+        overflow: hidden;
+    }
+    .contact h1{
+        font-size: 15px;
+
+       position: relative;
+       top: -13px;
+        right: 445px;
+    }
+    .mail ul{
+    list-style: none;
+    }
+    
+    
+
+
+    .mail a{
+
+        font-size: 1rem;
+        position: relative;
+    bottom: -181px;
+    left: 70px;
+    }
+    h2{
+        position: relative;
+        bottom: -158px;
+        font-size: medium;
+    }
+}
+    
+    
